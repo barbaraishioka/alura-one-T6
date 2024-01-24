@@ -2,7 +2,8 @@
 
 Criado um jogo onde você precisa adivinhar qual é o número secreto.
 Utilizado HTML, CSS e Javascript.
-Projeto responsivo.
+
+Fiz algumas melhorias pessoais, melhorei a responsividade, utilizei o focus(), adicionado função keydown para a tecla "Enter", inseri validação do campo para não poder ser inserido nada diferente do esperado e adicionei também uma função setTimeout para reiniciar o jogo mesmo sem clicar no botão.
 
 [Projeto online](https://barbaraishioka.github.io/alura-one-T6/Iniciante_em_Programacao_T6_ONE/Logica_de_programacao_Explore_funcoes_e_listas/jogo-do-numero-secreto)
 
