@@ -68,10 +68,10 @@
     <tbody>
       <tr>
         <td>01</td>
-        <td><a href="./PASTA ONDE ESTÁ O PROJETO/readme.md">Jogo do número secreto - HTML | CSS | Javascript</a></td>
+        <td><a href="./Iniciante_em_Programacao_T6_ONE/Logica_de_programacao_Explore_funcoes_e_listas/jogo-do-numero-secreto/readme.md">Jogo do número secreto - HTML | CSS | Javascript</a></td>
         <td align="center">
-          <a href="https://barbaraishioka.github.io/Iniciante em Programação T6 - ONE/Lógica de programação - Explore funções e listas/projeto-principal/"
-            ><img width="400px" src="./Iniciante em Programação T6 - ONE/Lógica de programação - Explore funções e listas/projeto-principal/img/preview.png"
+          <a href="https://barbaraishioka.github.io/Iniciante_em_Programacao_T6_ONE/Logica_de_programacao_Explore_funcoes_e_listas/jogo-do-numero-secreto"
+            ><img width="400px" src="./Iniciante_em_Programacao_T6_ONE/Logica_de_programacao_Explore_funcoes_e_listas/jogo-do-numero-secreto/img/preview.png"
           /></a>
         </td>
       </tr>                                       
