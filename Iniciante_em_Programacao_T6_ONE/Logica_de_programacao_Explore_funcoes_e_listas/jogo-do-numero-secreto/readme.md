@@ -17,9 +17,9 @@ Projeto responsivo.
 ## Instalação
 
 ```bash
-git clone https://github.com/barbaraishioka/alura-one/Iniciante_em_Programacao_T6_ONE/Logica_de_programacao_Explore_funcoes_e_listas/jogo-do-numero-secreto.git
+git clone https://github.com/barbaraishioka/alura-one-T6/Iniciante_em_Programacao_T6_ONE/Logica_de_programacao_Explore_funcoes_e_listas/jogo-do-numero-secreto.git
 
-cd alura-one/Iniciante_em_Programacao_T6_ONE/Logica_de_programacao_Explore_funcoes_e_listas/jogo-do-numero-secreto
+cd alura-one-T6/Iniciante_em_Programacao_T6_ONE/Logica_de_programacao_Explore_funcoes_e_listas/jogo-do-numero-secreto
 
 ```
 
