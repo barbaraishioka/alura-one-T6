@@ -14,7 +14,7 @@
   </h3>
 
 <img
-    width="100%"
+    width="60%"
     src="./.github/preview.png" />
 
   <p>
