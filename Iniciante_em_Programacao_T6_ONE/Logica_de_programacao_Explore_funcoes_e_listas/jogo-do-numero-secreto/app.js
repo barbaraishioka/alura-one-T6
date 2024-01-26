@@ -4,6 +4,7 @@
 // let paragrafo = document.querySelector("p");
 // paragrafo.innerHTML = "Escolha um número entre 1 e 10";
 
+let listaDeNumerosSorteados = [];
 let numeroMaximo = 10;
 let tagInput = document.querySelector(".container__input");
 tagInput.max = numeroMaximo;
@@ -24,10 +25,23 @@ function exibirMensagemInicial() {
 function exibirTextoNaTela(tag, texto) {
   let campo = document.querySelector(tag);
   campo.innerHTML = texto;
+
+  responsiveVoice.speak(texto, "Brazilian Portuguese Female", { rate: 1.4 });
 }
 
 function gerarNumeroAleatorio() {
-  return parseInt(Math.random() * numeroMaximo + 1);
+  let numeroEscolhido = parseInt(Math.random() * numeroMaximo + 1);
+
+  if (listaDeNumerosSorteados.length === numeroMaximo) {
+    listaDeNumerosSorteados = [];
+  }
+
+  if (listaDeNumerosSorteados.includes(numeroEscolhido)) {
+    return gerarNumeroAleatorio();
+  } else {
+    listaDeNumerosSorteados.push(numeroEscolhido);
+    return numeroEscolhido;
+  }
 }
 
 function limparCampo(campo) {
@@ -61,7 +75,7 @@ function verificarChute() {
     let palavraTentativa = tentativas > 1 ? "tentativas" : "tentativa";
     let mensagem = `Você descobriu o número secreto ${numeroSecreto} com ${tentativas} ${palavraTentativa} 👏👏👏`;
 
-    exibirTextoNaTela("h1", "Acertou!!!");
+    exibirTextoNaTela("h1", "Parabéns, acertou!!!");
     exibirTextoNaTela("p", `${mensagem}`);
 
     chutarBtn.setAttribute("disabled", "true");
