@@ -7,3 +7,5 @@ Resolva os conflitos manualmente, escolhendo quais alterações serão mantidas
 Realize um commit para registrar a resolução do conflito.
 Verifique quais arquivos foram adicionados
 Sincronize o repositório local com o repositório remoto no GitHub.
+
+Adicionando alteração no repositório local.
