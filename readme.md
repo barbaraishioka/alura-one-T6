@@ -74,7 +74,25 @@
             ><img width="400px" src="./Iniciante_em_Programacao_T6_ONE/Logica_de_programacao_Explore_funcoes_e_listas/jogo-do-numero-secreto/img/preview.png"
           /></a>
         </td>
-      </tr>                                       
+      </tr>
+      <tr>
+        <td>02</td>
+        <td><a href="#">Portifólio Pessoal</a></td>
+        <td align="center">
+          <a href="#"
+            ><img width="400px" src="./.github/work_in_progress.jpg"
+          /></a>
+        </td>
+      </tr>
+      <tr>
+        <td>03</td>
+        <td><a href="#">Decodificaador de Texto</a></td>
+        <td align="center">
+          <a href="#"
+            ><img width="400px" src="./.github/work_in_progress.jpg"
+          /></a>
+        </td>
+      </tr>                                                    
     </tbody>
   </table>
 
@@ -97,27 +115,75 @@
     </thead>
     <tbody>
       <tr>
-        <td>Fase Seleção Turma 6 do ONE - Oracle Next Education</td>
+        <td><b>Fase Seleção Turma 6 do ONE - Oracle Next Education</b></td>
         <td align="center">-</td>
       </tr>
       <tr>
-        <td>Evento Hello ONE BR - Youtube</td>
+        <td><b>Evento Hello ONE BR - Youtube</b></td>
         <td align="center">1h16m</td>
       </tr>
       <tr>
-        <td>Desenvolvimento Pessoal T6 ONE - 4 Cursos</td>
+        <td><b>Desenvolvimento Pessoal T6 ONE</b></td>
         <td align="center">38h</td>
       </tr>
       <tr>
-        <td>Lógica de programação: mergulhe em programação com JavaScript</td>
+        <td>↳ Aprender a aprender: técnicas para seu autodesenvolvimento</td>
+        <td align="center">8h</td>
+      </tr>
+      <tr>
+        <td>↳ LinkedIn: como fazer o seu perfil trabalhar para você</td>
+        <td align="center">4h</td>
+      </tr>
+      <tr>
+        <td>↳ Foco: trazendo mais resultados para o dia a dia</td>
+        <td align="center">10h</td>
+      </tr>
+      <tr>
+        <td>↳ Hábitos: da produtividade às metas pessoais</td>
+        <td align="center">8h</td>
+      </tr>
+      <tr>
+        <td>↳ Artigos e vídeos extras</td>
+        <td align="center">-</td>
+      </tr>
+      <tr>
+        <td><b>Iniciante em Programação T6 ONE</b></td>
+        <td align="center">54h</td>
+      </tr>
+      <tr>
+        <td>↳ Lógica de programação: mergulhe em programação com JavaScript</td>
         <td align="center">6h</td>
       </tr>
       <tr>
-        <td>Iniciante em Programação T6 ONE - 7 Cursos</td>
-        <td align="center">54h</td>
-      </tr>  
+        <td>↳ Lógica de programação: explore funções e listas</td>
+        <td align="center">6h</td>
+      </tr>
       <tr>
-        <td>1º Challenge - Decodificador de Texto</td>
+        <td>↳ HTML e CSS: ambientes de desenvolvimento, estrutura de arquivos e tags</td>
+        <td align="center">8h</td>
+      </tr>
+      <tr>
+        <td>↳ HTML e CSS: Classes, posicionamento e Flexbox</td>
+        <td align="center">8h</td>
+      </tr>
+      <tr>
+        <td>↳ HTML e CSS: cabeçalho, footer e variáveis CSS</td>
+        <td align="center">6h</td>
+      </tr>
+      <tr>
+        <td>↳ HTML e CSS: trabalhando com responsividade e publicação de projetos</td>
+        <td align="center">6h</td>
+      </tr>
+      <tr>
+        <td>↳ Git e GitHub: compartilhando e colaborando em projetos</td>
+        <td align="center">8h</td>
+      </tr>
+      <tr>
+        <td>↳ Podcast, artigos e vídeos extras</td>
+        <td align="center">-</td>
+      </tr>
+      <tr>
+        <td>↳ 1º Challenge - Decodificador de Texto</td>
         <td align="center">-</td>
       </tr>                        
     </tbody>
