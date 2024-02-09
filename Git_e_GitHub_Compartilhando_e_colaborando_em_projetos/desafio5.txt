@@ -1,0 +1,4 @@
+Criar um README.md para documentação de seu projeto
+Crie um arquivo .txt com os logs de commits no seu projeto
+Ignore o arquivo de logs durante a sincronização do repositório local para o remoto
+Crie um README.md para o seu perfil do github
