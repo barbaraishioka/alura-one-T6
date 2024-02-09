@@ -1,0 +1,8 @@
+Desafios:
+
+Crie um novo repositório remoto no Github e insira um arquivo.
+Faça um clone do seu repositório remoto para o local.
+Faça uma nova modificação no repositório remoto.
+Atualize seu repositório local a partir do Remoto.
+Utilize o comando git remote -v no terminal.
+Confira as mudanças nos arquivos.
