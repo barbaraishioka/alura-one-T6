@@ -6,4 +6,3 @@ Reverta mudanças no repositório local
 Apague um ou mais commits
 Sincronize as modificações com o repositório remoto
 Analise as mensagens de commits realizados e faça as alterações de acordo com as boas práticas
-
