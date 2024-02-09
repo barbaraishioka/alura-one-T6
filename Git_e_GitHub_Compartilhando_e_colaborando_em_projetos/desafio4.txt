@@ -6,8 +6,5 @@ Reverta mudanças no repositório local
 Apague um ou mais commits
 Sincronize as modificações com o repositório remoto
 Analise as mensagens de commits realizados e faça as alterações de acordo com as boas práticas
-<<<<<<< HEAD
-=======
 
-Adicionando nova alteração para ser excluída.
->>>>>>> 2e1b7cfcdd076db130740fafb67b8f25d2b4791a
+Adicionando frase para ser alterada.
