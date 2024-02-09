@@ -86,7 +86,7 @@
       </tr>
       <tr>
         <td>03</td>
-        <td><a href="#">Decodificaador de Texto</a></td>
+        <td><a href="#">Decodificador de Texto</a></td>
         <td align="center">
           <a href="#"
             ><img width="400px" src="./.github/work_in_progress.jpg"
