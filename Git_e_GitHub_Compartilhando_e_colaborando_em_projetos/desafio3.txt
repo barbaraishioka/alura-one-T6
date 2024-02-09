@@ -9,3 +9,4 @@ Verifique quais arquivos foram adicionados
 Sincronize o repositório local com o repositório remoto no GitHub.
 
 Adicionando alteração no repositório local.
+Adicionando alteração no repositório remoto.
