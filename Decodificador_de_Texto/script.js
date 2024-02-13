@@ -35,7 +35,10 @@ function executarOperacao() {
     document.getElementById("alertModal").style.display = "flex";
     alertText.innerText = "Por favor, preencha este campo antes de prosseguir.";
     return;
-  } else if (/[^a-z0-9]/.test(textArea.value) || /[A-Z]/.test(textArea.value)) {
+  } else if (
+    /[^a-z0-9\s]/.test(textArea.value) ||
+    /[A-Z]/.test(textArea.value)
+  ) {
     document.getElementById("alertModal").style.display = "flex";
     alertText.innerText =
       "Apenas letras minúsculas ou números, sem acento e sem caracteres especiais.";
