@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <title>Decodificador de Texto</title>
+  </head>
+  <body>
+    <div id="wrapper">
+      <header>
+        <img class="logo" src="./img/logo.svg" alt="Alura Logo" />
+      </header>
+
+      <main>
+        <section>
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Digite seu texto"
+            autofocus
+          ></textarea>
+
+          <p class="exclamation-text">
+            <i class="bi bi-exclamation-circle-fill"></i>
+            Apenas letras minúsculas ou números, sem acento e sem caracteres
+            especiais.
+          </p>
+          <div class="btn-container">
+            <button class="encrypt-button">Criptografar</button>
+            <button class="decrypt-button">Descriptografar</button>
+          </div>
+        </section>
+
+        <section>
+          <img src="./img/search.svg" alt="decoration-image" />
+          <div class="empty-text">
+            <p>Nenhuma mensagem encontrada</p>
+            <p>
+              Digite um texto que você deseja criptografar ou descriptografar.
+            </p>
+          </div>
+
+          <p class="encrypted_message"></p>
+          <button class="copy-button">Copiar</button>
+        </section>
+      </main>
+
+      <footer>
+        <p>
+          Feito com ♥ by
+          <a href="https://www.linkedin.com/in/barbaraishioka/">
+            Bárbara Ishioka
+          </a>
+          - 02/2024
+        </p>
+      </footer>
+    </div>
+
+    <div class="modal-overlay" id="alertModal">
+      <div class="modal">
+        <p id="alertText"></p>
+        <button onclick="closeAlert()">OK</button>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

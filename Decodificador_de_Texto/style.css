@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+:root {
+  --black-color: #000;
+  --white-color: #fff;
+  --primary-color: #0a3871;
+  --body-bg-color: #f3f5fc;
+  --light-btn-bg-color: #d8dfe8;
+  --dark-text-color: #343a40;
+  --light-text-color: #495057;
+  font-size: 16px;
+}
+
+body {
+  background-color: var(--body-bg-color);
+}
+
+#wrapper {
+  max-width: 1440px;
+  margin-inline: auto;
+}
+
+.logo {
+  padding-block: 24px;
+}
+
+main {
+  margin-inline: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  flex-wrap: wrap;
+  padding-bottom: 40px;
+  padding-inline: 40px;
+}
+
+textarea {
+  border: none;
+  outline: transparent;
+  background-color: var(--body-bg-color);
+  font-size: 32px;
+  color: var(--primary-color);
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+textarea::placeholder {
+  color: var(--primary-color);
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-top: 16px;
+}
+
+button {
+  width: 300px;
+  padding: 24px;
+  border-radius: 24px;
+  border: 1px solid var(--primary-color);
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  text-decoration: underline;
+}
+
+button:active {
+  transform: translateY(2px);
+}
+
+button:first-child {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+}
+
+button:last-child {
+  background-color: var(--light-btn-bg-color);
+  color: var(--primary-color);
+}
+
+main section:last-child {
+  max-width: 400px;
+  min-width: 400px;
+  max-height: 600px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: var(--white-color);
+  border-radius: 32px;
+  margin-top: -40px;
+  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.1);
+}
+
+main section:last-child img {
+  max-width: 100%;
+}
+
+.empty-text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 32px;
+}
+
+.empty-text p:first-child {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.copy-button,
+.encrypted_message {
+  display: none;
+}
+
+main section:last-child.encrypted_message-box {
+  color: var(--dark-text-color);
+  padding: 32px;
+  justify-content: space-between;
+  gap: 32px;
+  font-size: 24px;
+}
+
+main section:last-child.encrypted_message-box button {
+  background-color: var(--white-color);
+  color: var(--primary-color);
+  width: 100%;
+}
+
+main section:last-child.encrypted_message-box .copy-button,
+main section:last-child.encrypted_message-box .encrypted_message {
+  display: block;
+}
+
+main section:last-child.encrypted_message-box img,
+main section:last-child.encrypted_message-box .empty-text {
+  display: none;
+}
+
+main section:last-child.encrypted_message-box .encrypted_message {
+  max-width: 100%;
+  width: 100%;
+  word-wrap: break-word;
+  overflow: auto;
+  text-align: left;
+}
+
+footer {
+  width: 100%;
+  height: 40px;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-inline: 24px;
+}
+
+footer > p > a {
+  text-decoration: none;
+  color: var(--white-color);
+}
+
+@media only screen and (max-width: 1200px) {
+  main {
+    width: 100%;
+  }
+
+  main section:first-child {
+    width: 100%;
+  }
+  main section:last-child {
+    max-width: 100%;
+    width: 100%;
+    height: fit-content;
+  }
+
+  main section:last-child img {
+    display: none;
+  }
+
+  textarea {
+    height: 360px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  :root {
+    font-size: 90%; /* Ajuste o valor conforme necessário */
+  }
+
+  button,
+  textarea,
+  p,
+  .empty-text p:first-child,
+  main section:last-child.encrypted_message-box {
+    font-size: inherit;
+  }
+
+  textarea {
+    height: 200px;
+  }
+
+  main section:last-child {
+    min-width: auto;
+  }
+}
+
+/* MODAL */
+
+.modal-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  background-color: #fff;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  width: 360px;
+}
+
+.modal button {
+  padding: 10px 20px;
+  margin-top: 24px;
+  cursor: pointer;
+}
