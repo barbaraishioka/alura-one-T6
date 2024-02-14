@@ -2,8 +2,7 @@
 
 # Challenge - Decodificador de Texto
 
-Criado um jogo onde você precisa adivinhar qual é o número secreto.
-Utilizado HTML, CSS e Javascript.
+Criado um decodificador de texto utilizando HTML, CSS e Javascript.
 
 - Adicionado responsividade utilizando media queries, modal personalizado, footer, efeitos hover e active;
 - Automatização de estilos e tamanhos: Quando apaga o conteúdo do textarea, a section que mostra a mensagem criptografada muda para o estado inicial.
