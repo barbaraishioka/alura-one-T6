@@ -86,7 +86,7 @@
       </tr>
       <tr>
         <td>03</td>
-        <td><a href="./Decodificador_de_Texto/readme.md">Decodificador de Texto</a></td>
+        <td><a href="./Decodificador_de_Texto/readme.md">Decodificador de Texto - HTML | CSS | Javascript</a></td>
         <td align="center">
           <a href="https://barbaraishioka.github.io/alura-one-T6/Decodificador_de_Texto"
             ><img width="400px" src="./Decodificador_de_Texto/img/preview.png"
